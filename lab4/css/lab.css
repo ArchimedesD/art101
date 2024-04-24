@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .psuedocode-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border: solid 3px; color: rgb(6, 0, 119);
+}
