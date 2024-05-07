@@ -1,4 +1,6 @@
 // sortUserName - a function that sorts user input
+// Author - Archie Dickson
+// Date - 5/2/2024
 
 function sortUserName() {
     let userName = window.prompt ("Hi. Please tell me your name so I can fix it.");
@@ -12,8 +14,6 @@ function sortUserName() {
     // join array back to a string
     let nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
-    // Note that I could have done the above lines as a single line:
-    // userName. toLower () split(""). sort(). join("")
     return nameSorted;
 }
 
