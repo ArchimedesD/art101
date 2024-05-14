@@ -1,0 +1,43 @@
+
+body {
+    background-image: url("https://naldzgraphics.net/wp-content/uploads/2011/03/red-patterns.jpg");
+  }
+  
+  h1,h2,h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 300%;
+  }
+  
+  p {
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #content {
+    margin: 10px;
+    padding: 50px;
+    border: ridge 10px rgb(255, 53, 53);
+    background-color: #68dafd;
+  }
+  
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: ridge 20px rgb(131, 131, 246);
+    background-color: rgb(255, 53, 53);
+  }
+
+.special {
+    background-color: rgb(131, 131, 246);
+    border: ridge 20px rgb(255, 53, 53);
+    color: rgb(149, 255, 0);
+    font-weight: bold;
+}
