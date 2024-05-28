@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+	    <title>Lab 13 - Loops</title>
+	
+		    <meta charset="UTF-8" />
+
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+        <link rel="stylesheet" type="text/css" href="css/lab13.css">
+
+		<link rel="stylesheet" type="text/css" href="..css/site.css"> 
+
+	    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+	    <script src="js/lab13.js" defer></script>
+
+    </head>
+<body>
+	<main id="content">
+		<section>
+			<h1>Lab 13 - Loops</h1>
+
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge for this lab was to experiment with loops to create the game FizzBuzzBoom!</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>I had problems getting my output to print in the correct format. It would print in a single list that would extend the page wya too far.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>The results are below. Set a number limit and set factor for each word you want to print.</p>
+			</div>
+
+            <div id="input">
+                Where should we stop? <input type="number" min=0 max="1000" id="max"><br>
+                Which factors should print what?<br>
+                <table>
+                    <tr>
+                        <th>Factor</th>
+                        <th>Prints what?</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num0"></td>
+                        <td><input type="text" id="text0"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num1"></td>
+                        <td><input type="text" id="text1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num2"></td>
+                        <td><input type="text" id="text2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num3"></td>
+                        <td><input type="text" id="text3"></td>
+                    </tr>
+                </table>
+                <button id="submit">Run</button>
+            </div>
+            <h3>Output</h3>
+            <div id="output"></div>
+
+		</section>
+		<nav id="links">
+			<a href="file:///Users/archie/Desktop/art101/index.html">Homepage</a>
+		</nav>
+	</main>
+</body>
+</html>
