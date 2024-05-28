@@ -1,6 +1,5 @@
 /*
-   lab10.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page using buttons
-
+   lab10.js - This script outputs a randomized version of set line of text.
 
    Author: Archie Dickson
    Date: 5/16/2024

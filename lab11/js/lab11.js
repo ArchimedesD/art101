@@ -8,17 +8,7 @@
 */
 
 // Credit: ChatGPT
-// function sortString(inputString) {
-//     let new_word = [];
-//     let input_size = inputString.length;
-    
-//     for (let i = 0; i < input_size; i++) {
-//         let rand_int = Math.floor(Math.random() * input_size); // Correct calculation for a random index
-//         new_word.push(inputString[rand_int]);
-//     }
 
-//     return new_word.join('');
-// }
 function sortString(inputString) {
     // Convert the input string to an array of characters
     let charsArray = inputString.split('');

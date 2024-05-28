@@ -1,10 +1,10 @@
 /*
-   lab11.js - This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
+   lab12.js - This simple JavaScript/jQuery script gets user input and outputs text based on the input's length.
 
    Requirements: jQuery must be loaded for this script to work.
 
    Author: Archie Dickson
-   Date: 5/20/2024
+   Date: 5/23/2024
 */
 
 function sortingHat(str) {
@@ -21,6 +21,7 @@ function sortingHat(str) {
     }
 }
 
+//Credit to chatGPT
 document.getElementById('button').addEventListener('click', function() {
     let name = document.getElementById('input').value;
     let house = sortingHat(name);
