@@ -1,0 +1,38 @@
+
+body {
+    background-image: url="https://i.pinimg.com/originals/96/df/b5/96dfb538a30983d7f39738315b714840.png"
+  }
+  
+  h1,h2,h3 {
+    color: #9497f0;
+    font-family:monospace
+  }
+  
+  h1 {
+    color: #9497f0;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 300%;
+  }
+  
+  p {
+    font-size: 150%;
+    color: #9497f0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  #content {
+    margin: 10px;
+    padding: 50px;
+    border: ridge 30px #250dae;
+    background-color: black
+  }
+  
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 3px #250dae;
+    background-color: black
+  }
+  
